@@ -1,6 +1,9 @@
-var fill;
+var $, fill;
+
+$ = require('jquery');
 
 (fill = function(item) {
-  $('.tagline').append("" + item);
-  return fill;
+  return $('.tagline').append("" + item);
 })('The most creative minds in Art');
+
+fill;
